@@ -30,36 +30,18 @@
           <header class="special" id="about">
             <h2>About Me</h2>
             <p>The man behind the code</p>
+            <br />
+            <img src="images/nico.png" />
           </header>
           <div class="content">
-            <img
-              src="images/nico.png"
-              style="float:left; margin:30px 20px 30px 0px"
-            />
-            <p>
-              Hi, I'm Nico. I grew up in Hawaii and spent the first eighteen
-              years of my life there. I moved to Oakland in 2011 and have been
-              working as an IT Manager at Market Hall Foods since then. At
-              Market Hall I do all the network security, and make sure that the
-              business is compliant with the payment card industry standards. I
-              also work on six websites representing different businesses owned
-              by Market Hall.
+            <p style="text-align: center">
+              Hi, I'm Nico. I grew up in Hawaii, and moved to Oakland in 2011.
             </p>
 
-            <p>
-              In my free time I enjoy playing video games on my self built
-              computer, carving wood with hand tools, and cooking delicious
-              meals. I play a lot of League of Legends with my friends, it's a
-              good way to keep in contact with long distance buddies.
-            </p>
-
-            <p>
-              I have spent quite some time in my life coding as a hobby, and I
-              enjoy it very much. This will be my first time learning to code in
-              a formal setting and I really look forward to it! One of my
-              favorite things to do is create tools for gaming communities. I
-              hope to be able to use the knowledge from this class to build some
-              really cool things!
+            <p style="text-align: center">
+              Other than writing code and building awesome web apps; I enjoy
+              playing games, carving wood with hand tools, and cooking delicious
+              meals.
             </p>
           </div>
         </section>
@@ -73,81 +55,37 @@
           <div class="spotlight">
             <div class="image flush">
               <img
-                src="./images/books.jpg"
+                src="https://i.gyazo.com/8e0897ac456e51eee177a8746da30a68.jpg"
                 alt=""
               />
             </div>
             <div class="inner">
               <h2 class="hover">
-                <a href="https://aqueous-dawn-29300.herokuapp.com/"
-                  >Google Books</a
-                >
+                <a href="http://www.plantify.io">Plantify.io</a>
               </h2>
               <a
                 class="portfolio"
-                href="https://github.com/nicoviarnes/react-google-books"
+                href="https://github.com/nicoviarnes/plant-id"
                 ><p>github</p></a
               >
               <p>
-                React app to search for books on Google Books and save a personal list of books. 
+                Plantify is a houseplant/garden management system. It is
+                integrated with a computer vision API that can recognize over
+                300,000 different plant species by their scientific names.
               </p>
               <p>
-                Built with Mongo, express, React, Node
+                Plantify combines that unique ability with a custom web scraper
+                to pull interesting information about the identified plant.
+                Users can then set care schedules, make notes about their
+                plants, and get notified when they need to water or a feed a
+                plant!
+              </p>
+              <p>
+                Built with Mongo, express, React, Node, Axios, Cheerio
               </p>
             </div>
           </div>
-          <div class="spotlight alt">
-            <div class="image flush">
-              <img
-                src="./images/jamsesh.png"
-                alt=""
-              />
-            </div>
-            <div class="inner">
-              <h2 class="hover2">
-                <a href="http://www.jamsesh.xyz"
-                  >Jamsesh.xyz</a
-                >
-              </h2>
-              <a
-                class="portfolio2"
-                href="https://github.com/nicoviarnes/project-2"
-                ><p>github</p></a
-              >
-              <p>
-                An app for musicians to find other musicians and put together a band! "Match" with other muscicians based on their musical tastes, and musical talents.
-              </p>
-              <p>
-                Built with Express, jQuery, MySQL, and Nodejs
-              </p>
-            </div>
-          </div>
-          <div class="spotlight">
-            <div class="image flush">
-              <img
-                src="https://i.gyazo.com/5a8c3e119411e4370ea233cfe5d82a9c.png"
-                alt=""
-              />
-            </div>
-            <div class="inner">
-              <h2 class="hover">
-                <a href="http://github.com/nicoviarnes/souptv"
-                  >SoupTV</a
-                >
-              </h2>
-              <a
-                class="portfolio"
-                href="http://github.com/nicoviarnes/souptv"
-                ><p>github</p></a
-              >
-              <p>
-                App built for Market Hall Foods. Displays daily soup menu on a TV attached to a Raspberry Pi. Fully functional user auth, backend to edit soups, and front end to display soups. In production at Market Hall Foods brick and mortar locations. 
-              </p>
-              <p>
-                Built with Mongo, express, jQuery, Node
-              </p>
-            </div>
-          </div>
+
           <div class="spotlight alt">
             <div class="image flush">
               <img src="./images/pooblah.png" alt="" />
@@ -174,12 +112,110 @@
               </p>
             </div>
           </div>
+
+          <div class="spotlight">
+            <div class="image flush">
+              <img src="./images/books.jpg" alt="" />
+            </div>
+            <div class="inner">
+              <h2 class="hover">
+                <a href="https://aqueous-dawn-29300.herokuapp.com/"
+                  >Google Books</a
+                >
+              </h2>
+              <a
+                class="portfolio"
+                href="https://github.com/nicoviarnes/react-google-books"
+                ><p>github</p></a
+              >
+              <p>
+                React app to search for books on Google Books and save a
+                personal list of books.
+              </p>
+              <p>
+                Built with Mongo, express, React, Node
+              </p>
+            </div>
+          </div>
+          <div class="spotlight alt">
+            <div class="image flush">
+              <img src="./images/jamsesh.png" alt="" />
+            </div>
+            <div class="inner">
+              <h2 class="hover2">
+                <a href="http://www.jamsesh.xyz">Jamsesh.xyz</a>
+              </h2>
+              <a
+                class="portfolio2"
+                href="https://github.com/nicoviarnes/project-2"
+                ><p>github</p></a
+              >
+              <p>
+                An app for musicians to find other musicians and put together a
+                band! "Match" with other muscicians based on their musical
+                tastes, and musical talents.
+              </p>
+              <p>
+                Built with Express, jQuery, MySQL, and Nodejs
+              </p>
+            </div>
+          </div>
           <div class="spotlight">
             <div class="image flush">
               <img
-                src="./images/clicky.png"
+                src="https://i.gyazo.com/5a8c3e119411e4370ea233cfe5d82a9c.png"
                 alt=""
               />
+            </div>
+            <div class="inner">
+              <h2 class="hover">
+                <a href="http://github.com/nicoviarnes/souptv">SoupTV</a>
+              </h2>
+              <a class="portfolio" href="http://github.com/nicoviarnes/souptv"
+                ><p>github</p></a
+              >
+              <p>
+                App built for Market Hall Foods. Displays daily soup menu on a
+                TV attached to a Raspberry Pi. Fully functional user auth,
+                backend to edit soups, and front end to display soups. In
+                production at Market Hall Foods brick and mortar locations.
+              </p>
+              <p>
+                Built with Mongo, express, jQuery, Node
+              </p>
+            </div>
+          </div>
+
+          <div class="spotlight alt">
+            <div class="image flush">
+              <img
+                src="https://i.gyazo.com/efe0175c77f7d4eb197d3ae95687bb4a.png"
+                alt=""
+              />
+            </div>
+            <div class="inner">
+              <h2 class="hover2">
+                <a href="https://fathomless-ocean-63093.herokuapp.com/"
+                  >Burgers</a
+                >
+              </h2>
+              <a
+                class="portfolio2"
+                href="https://github.com/nicoviarnes/burgers"
+                ><p>github</p></a
+              >
+              <p>
+                This is an app to generate a list of burgers, eaten or uneaten.
+              </p>
+              <p>
+                Built with Express, jQuery, MySQL, Nodejs, and Handlebars
+              </p>
+            </div>
+          </div>
+
+          <div class="spotlight">
+            <div class="image flush">
+              <img src="./images/clicky.png" alt="" />
             </div>
             <div class="inner">
               <h2 class="hover">
@@ -193,10 +229,11 @@
                 ><p>github</p></a
               >
               <p>
-               Memory Click game. Try to click on as many characters as you can without clicking on one you have already clicked!
+                Memory Click game. Try to click on as many characters as you can
+                without clicking on one you have already clicked!
               </p>
               <p>
-               Built with React
+                Built with React
               </p>
             </div>
           </div>
